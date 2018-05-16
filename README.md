@@ -1,2 +1,2 @@
 # theatre_project
-First project uploaded to GIthub
+First project uploaded to Github
