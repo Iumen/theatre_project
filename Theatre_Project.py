@@ -37,10 +37,11 @@ def displaySeatingChart(rows, columns, theatre = []):
     #print seats
     print('') #newline
     for row in range(0,rows):
+        #taking items in list and putting them in a string to print
         tempString = ""
         for col in range(0,columns):
             tempString += theatre[row][col]
-        print("Row",row," ",end = "")
+        print("Row",row + 1," ",end = "")
         print(tempString)
 
 def sellTickets(theatre = [], rowPrices = []):
